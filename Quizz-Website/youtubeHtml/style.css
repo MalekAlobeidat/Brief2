@@ -15,6 +15,9 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
+.right-image{
+width: 600px;
+}
 
 #head {
     display: flex;
@@ -55,6 +58,7 @@ body {
     margin: 0;
     border-top: 2px solid rgb(204, 180, 180);
 }
+
 
 .button-17 {
     background: white;
@@ -99,6 +103,26 @@ iframe {
 
     width: 560px;
     height: 315px;
+}
+.navbar a {
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+@media (max-width:445px) {
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    div#links.links{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 390px) {
